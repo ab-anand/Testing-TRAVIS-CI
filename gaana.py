@@ -4,7 +4,7 @@ import webbrowser
 from bs4 import BeautifulSoup
 
 # uncomment the line below and set the user_id n pass if working on college proxy
-os.environ["HTTPS_PROXY"] = "https://ipg_2015003:abhi%4098@192.168.1.107:3128"
+# os.environ["HTTPS_PROXY"] = "https://user:pass@192.168.1.107:3128"
 
 
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36'}
