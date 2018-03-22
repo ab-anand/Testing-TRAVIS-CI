@@ -15,5 +15,5 @@ source_code = requests.get(url, headers=headers, timeout=5)
 plain_text = source_code.content
 soup = BeautifulSoup(plain_text,"html.parser")
 links = soup.find_all('a',{'class':'rt_arw'})
-# print (links[0]['href'])
-webbrowser.open(links[0]['href'])
+print (links[0]['href'])
+# webbrowser.open(links[0]['href'])
