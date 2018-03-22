@@ -4,4 +4,4 @@ python:
 install:
   - pip install -r requirements.txt
 script: 
-  - python gaana.py despacito
+  - python gaana.py < testing.txt
